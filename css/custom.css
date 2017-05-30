@@ -1,0 +1,28 @@
+      
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+
+      .main {
+        overflow: hidden;
+        width: 400px;
+        max-height: 600px;
+        overflow:auto;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      #no-padding {
+         padding: 0px;
+         margin: 0px;
+      }
+
+      .card-image {
+        width: 40%;
+      }
+
+      #links {
+       overflow:auto;
+       padding: 0px;
+      }

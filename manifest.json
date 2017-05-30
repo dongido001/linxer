@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Linxer",
+  "description": "Saves important links for you.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "index.html",
+    "default_title": "Save that link!"
+  },
+  "permissions": [
+    "activeTab",
+    "http://*/",
+    "storage"
+  ]
+}
