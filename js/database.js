@@ -36,7 +36,7 @@ Linxer.dbs.addLink = function(url) {
       addedOn = new Date(),
       img = "";
 
-     $.get("http://localhost:9090/fetch.php?url="+url) //this gets the url information( like images, title ...)
+     $.get("http://linxer2.herokuapp.com/demo/fetch.php?url="+url) //this gets the url information( like images, title ...)
      .done( function(data){
 
    	     if( data.total_images > 0 ){
