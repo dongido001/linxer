@@ -1,4 +1,4 @@
- # Linxer: Google Chrome extensions that saves for you important links.
+ # Linxer: Google Chrome extension that saves for you important links.
 
   ## How to install
 
